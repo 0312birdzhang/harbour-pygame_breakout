@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-pygame_breakout
+Exec=harbour-pygame_breakout
+Name=BreakOut
+Terminal=false
