@@ -8,7 +8,17 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Dec 23 2016 BirdZhang <0312birdzhang@gmail.com> 0.2.1-1
+
+- fix not exit bug
+
+* Fri Dec 23 2016 BirdZhang <0312birdzhang@gmail.com> 0.1.2-1
+- Add pygame exit call stop.sh
+
+- Force close game when exit
+
 * Fri Dec 23 2016 BirdZhang <0312birdzhang@gmail.com> 0.1.1-1
 - Init release
+
 - Happy Christmas ;)
 

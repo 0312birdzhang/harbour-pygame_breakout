@@ -13,7 +13,7 @@ Name:       harbour-pygame_breakout
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Breakout clone writen by pygame
-Version:    0.1
+Version:    0.2
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE
@@ -61,6 +61,8 @@ rm -rf %{buildroot}
 desktop-file-install --delete-original       \
   --dir %{buildroot}%{_datadir}/applications             \
    %{buildroot}%{_datadir}/applications/*.desktop
+
+chmod a+x %{buildroot}%{_datadir}/%{name}/start.sh
 
 %files
 %defattr(-,root,root,-)

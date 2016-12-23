@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Icon=harbour-pygame_breakout
-Exec=sh /usr/share/harbour-pygame_breakout/start.sh
+Exec=/usr/share/harbour-pygame_breakout/start.sh
 Terminal=false
 Name=BreakOut
